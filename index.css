@@ -1,12 +1,12 @@
 body {
   margin: 0px;
   background-image: url("assets/FlecheMenu3.webp");
-  background-position:top;
   background-repeat: no-repeat;
-  background-size: 101%;
+  background-size: cover;
   display: flex;
   justify-content: space-between;
   font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
 }
 
 /* logo cpgd + text */
@@ -33,7 +33,7 @@ width: 600px;
 height: 800px;
 background-color: white;
 margin-top:50px;
-margin-right:120px;
+margin-right:100px;
 border-radius: 30px;
 box-shadow: 2px 4px 6px #a87a55;
 }
@@ -44,6 +44,8 @@ box-shadow: 2px 4px 6px #a87a55;
 
 .logoCPGDNET {
     text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
 }
 
 .accesClientsText {
@@ -58,7 +60,7 @@ box-shadow: 2px 4px 6px #a87a55;
 }
 .accesClientsText p{
   text-align: center;
-  padding-top: 5px;
+  margin-top: 20px;
   color:white
 }
 .accesClientsText i{
@@ -66,7 +68,7 @@ box-shadow: 2px 4px 6px #a87a55;
   }
 
   .risqueClientText {
-    font-size: 20px;
+    font-size: 16px;
    
   }
 
@@ -130,3 +132,54 @@ button {
     margin-bottom: 10px;
     font-weight: bold;
 }
+
+
+@media (min-width: 769px) and (max-width: 1424px) {
+    body {
+        background-image: none;
+        flex-direction: column;
+        height: auto;
+       }
+       .blocLogin {
+           margin: auto;
+           width: 500px;
+           box-shadow: none;
+        
+       }
+       .divLogoCPGD{
+           margin-top: 10px;
+           margin-bottom: 20px;
+      
+       }
+       .contact {
+           margin-bottom: 20px;
+           margin-top: 0px;
+           margin-left: 20px;
+       }
+  }
+
+@media (max-width: 768px)  {
+    body {
+     background-image: none;
+     flex-direction: column;
+     height: auto;
+    }
+    .blocLogin {
+        margin: auto;
+        width: 500px;
+        box-shadow: none;
+     
+    }
+    .divLogoCPGD{
+        margin-top: 10px;
+        margin-bottom: 20px;
+   
+    }
+    .contact {
+        margin-bottom: 20px;
+        margin-top: 0px;
+        margin-left: 20px;
+    }
+  }
+  
+ 
