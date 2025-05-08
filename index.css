@@ -144,7 +144,7 @@ button {
        }
        .blocLogin {
            margin: auto;
-           width: 90%;
+           width: auto;
  
            box-shadow: none;
         
@@ -159,9 +159,7 @@ button {
            margin-top: 0px;
            margin-left: 20px;
        }
-       .risqueClientText img {
-        margin-left: 10px;
-       }
+     
   }
 
 @media (max-width: 768px)  {
@@ -170,12 +168,12 @@ button {
      background-image: none;
      flex-direction: column;
      height: auto;
-     margin: 0;
+     /* margin: auto; */
     }
     .blocLogin {
+        /* margin-left: 0px; */
         margin: auto;
-        width: 90%;
-       
+        width: auto;
         box-shadow: none;
      
     }
@@ -189,10 +187,7 @@ button {
         margin-top: 0px;
         margin-left: 20px;
     }
-    .risqueClientText img {
-      position: relative;
-      right: 10px;
-       }
+  
   }
   
  
