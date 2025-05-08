@@ -12,30 +12,29 @@ body {
 /* logo cpgd + text */
 
 .divLogoCPGD {
-    margin-top: 50px;
-     text-align: center;
-     margin-left:20px;
- }
- .divLogoCPGD p{
-    margin: 0;
- }
- 
- .logoCPGD {
-      margin-right: 10px;
-     height: 80px;
- }
+  margin-top: 50px;
+  text-align: center;
+  margin-left: 20px;
+}
+.divLogoCPGD p {
+  margin: 0;
+}
 
+.logoCPGD {
+  margin-right: 10px;
+  height: 80px;
+}
 
 /* bloc Login */
 
 .blocLogin {
-width: 600px;
-height: 800px;
-background-color: white;
-margin-top:50px;
-margin-right:100px;
-border-radius: 30px;
-box-shadow: 2px 4px 6px #a87a55;
+  width: 600px;
+  height: 800px;
+  background-color: white;
+  margin-top: 50px;
+  margin-right: 100px;
+  border-radius: 30px;
+  box-shadow: 2px 4px 6px #a87a55;
 }
 
 .headerBlocLogin {
@@ -43,151 +42,134 @@ box-shadow: 2px 4px 6px #a87a55;
 }
 
 .logoCPGDNET {
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 40px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 40px;
 }
 
 .accesClientsText {
-    width: 300px;
-    height: 60px;
-    margin: auto;
-    background-color: #a87a55;
-    border-radius: 30px;
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-around;
+  width: 300px;
+  height: 60px;
+  margin: auto;
+  background-color: #a87a55;
+  border-radius: 30px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
 }
-.accesClientsText p{
+.accesClientsText p {
   text-align: center;
   margin-top: 20px;
-  color:white
+  color: white;
 }
-.accesClientsText i{
+.accesClientsText i {
   padding-top: 20px;
-  }
+}
 
-  .risqueClientText {
-    font-size: 16px;
-   
-  }
+.risqueClientText {
+  font-size: 16px;
+}
 
 /* formulaire */
 
 .formLogin {
-    
-    width: 350px;
-    margin: auto;
-    margin-top: 100px;
-  
-    
+  width: 350px;
+  margin: auto;
+  margin-top: 100px;
 }
 
 .label {
-    display: block;
-    margin-bottom: 8px;
-    text-align: left;
-    
+  display: block;
+  margin-bottom: 8px;
+  text-align: left;
 }
 
 input {
-    border: none;
-    border-radius: 6px;
-    background-color: rgba(0, 0, 0, 0.04);
-    height: 40px;
-    width: 350px;
-    margin-bottom: 20px;
-    padding-left: 10px;
-    font-family: Arial, Helvetica, sans-serif
+  border: none;
+  border-radius: 6px;
+  background-color: rgba(0, 0, 0, 0.04);
+  height: 40px;
+  width: 350px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 button {
-    height: 40px;
-    width: 350px;
-    border: none;
-    border-radius: 6px;
-    background-color: #a87a55;
-    color:white;
-    cursor: pointer
-
+  height: 40px;
+  width: 360px;
+  border: none;
+  border-radius: 6px;
+  background-color: #a87a55;
+  color: white;
+  cursor: pointer;
 }
 
 /* contact info */
 
 .contact {
-    margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-    margin-right:100px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 100px;
 }
 
-.contact a{
-    text-decoration: none;
-    color: black;
-    font-weight: normal;
+.contact a {
+  text-decoration: none;
+  color: black;
+  font-weight: normal;
 }
 
 .contactInfo {
-    color: #a87a55;
-    margin-bottom: 10px;
-    font-weight: bold;
+  color: #a87a55;
+  margin-bottom: 10px;
+  font-weight: bold;
 }
 
-
 @media (min-width: 769px) and (max-width: 1424px) {
-
-    body {
-        background-image: none;
-        flex-direction: column;
-        height: auto;
-        margin: 0px;
-       }
-       .blocLogin {
-           margin: auto;
-           width: auto;
- 
-           box-shadow: none;
-        
-       }
-       .divLogoCPGD{
-           margin-top: 10px;
-           margin-bottom: 20px;
-      
-       }
-       .contact {
-           margin-bottom: 20px;
-           margin-top: 0px;
-           margin-left: 20px;
-       }
-     
+  body {
+    background-image: none;
+    flex-direction: column;
+    height: auto;
+    margin: 0px;
   }
+  .blocLogin {
+    margin: auto;
+    width: auto;
 
-@media (max-width: 768px)  {
-   
-    body {
-     background-image: none;
-     flex-direction: column;
-     height: auto;
-     /* margin: auto; */
-    }
-    .blocLogin {
-        /* margin-left: 0px; */
-        margin: auto;
-        width: auto;
-        box-shadow: none;
-     
-    }
-    .divLogoCPGD{
-        margin-top: 10px;
-        margin-bottom: 20px;
-   
-    }
-    .contact {
-        margin-bottom: 20px;
-        margin-top: 0px;
-        margin-left: 20px;
-    }
-  
+    box-shadow: none;
   }
-  
- 
+  .divLogoCPGD {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .contact {
+    margin-bottom: 20px;
+    margin-top: 0px;
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    background-image: none;
+    flex-direction: column;
+    height: auto;
+    /* margin: auto; */
+  }
+  .blocLogin {
+    /* margin-left: 0px; */
+    margin: auto;
+    width: auto;
+    box-shadow: none;
+  }
+  .divLogoCPGD {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .contact {
+    margin-bottom: 20px;
+    margin-top: 0px;
+    margin-left: 20px;
+  }
+}
