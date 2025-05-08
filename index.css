@@ -135,14 +135,17 @@ button {
 
 
 @media (min-width: 769px) and (max-width: 1424px) {
+
     body {
         background-image: none;
         flex-direction: column;
         height: auto;
+        margin: 0px;
        }
        .blocLogin {
            margin: auto;
-           width: 500px;
+           width: 90%;
+ 
            box-shadow: none;
         
        }
@@ -156,17 +159,23 @@ button {
            margin-top: 0px;
            margin-left: 20px;
        }
+       .risqueClientText img {
+        margin-left: 10px;
+       }
   }
 
 @media (max-width: 768px)  {
+   
     body {
      background-image: none;
      flex-direction: column;
      height: auto;
+     margin: 0;
     }
     .blocLogin {
         margin: auto;
-        width: 500px;
+        width: 90%;
+       
         box-shadow: none;
      
     }
@@ -180,6 +189,10 @@ button {
         margin-top: 0px;
         margin-left: 20px;
     }
+    .risqueClientText img {
+      position: relative;
+      right: 10px;
+       }
   }
   
  
